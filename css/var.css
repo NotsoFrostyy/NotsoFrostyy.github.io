@@ -16,7 +16,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: radial-gradient(#161d35 0%, #11131b 100%);
+    background: #11131b;
     }
     .topnav {
       overflow: hidden;
@@ -117,4 +117,9 @@
     .welcome {
       font-weight: bold;
       font-size: 55px;
+    }
+    .about {
+      font-weight: 400;
+      font-size: 55px;
+      color: #f2f2f2;
     }
