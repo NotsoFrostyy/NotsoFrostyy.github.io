@@ -3,6 +3,7 @@ body{
     padding: 0;
     background: url(/imgs/img.jpg) no-repeat;
     background-size: cover;
+    background-color: black;
 }
 
 .box{
@@ -61,7 +62,7 @@ ul{
 }
 
 footer {
-    position: fixed;
+    position:fixed;
     bottom: 0;
     width: 100%;
     left: 20px;
