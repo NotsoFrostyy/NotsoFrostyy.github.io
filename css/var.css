@@ -1,8 +1,6 @@
 body{
-    margin: 0;
-    padding: 0;
     background: url(/imgs/img.webp) no-repeat;
-    background-size: cover;
+    background-size:auto;
     background-color:#36393e;
 }
 
@@ -15,6 +13,7 @@ body{
     margin-top: 5%;
     color: white;
     font-family: 'Century Gothic',sans-serif;
+    border-radius: 5%;
 }
 
 .box-img{
@@ -27,6 +26,7 @@ body{
     font-size: 40px;
     letter-spacing: 4px;
     font-weight: 100;
+    
 }
 
 .box h5{
@@ -72,3 +72,17 @@ footer {
     padding-bottom: 30px;
     height: 20px;
   }
+@media screen and (max-width:450px) {
+    /*mobile*/
+
+    .box{
+        width: 75%;
+        height: 75%;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    /*normal screen*/
+    
+}
